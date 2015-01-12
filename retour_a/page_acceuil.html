@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html>
+<head>
+	<title> Le Magasin Des Otakus </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="css/page_acceuil.css"/> 
+</head>
+
+<body>
+
+	<header id="titre">
+	 	Le Magasin Des Otakus
+		<img id="logo" src="images/logo_otaku_site.png" alt="logo_magasin_des_otakus"/>
+	</header> 
+
+	<form id="form_connect" method="POST" action="page_acceuil.html">
+		Login: <input type="text" name="login"><br/>
+		Password: <input type="password" name="password">
+		<input type="submit" name="Connexion" value="connexion">
+	</form>
+
+	<div id="sous_la_connect"> 
+		<a href="page_inscription.html">Inscription</a>
+		<a href="page_mdp.html">Mot de passe Oublié?</a>
+	</div>
+
+	<form id="recherche" method="POST" action="page_acceuil.html">
+		Recherche: <input type="text" name="login">
+		<input type="submit" name="rechercher" value="rechercher">
+	</form>
+	
+	<div id="menu_central">
+		<ul id="menu_horizontal">
+			<li><a href="page_acceuil.html">Accueil</a></li>		
+			<li><a href="page_top_vente.html">Top Meilleurs ventes</a></li>
+			<li><a href="page_categorie.html">Catégorie</a>
+				<ul>
+					<li><a href="page_figurines.html">Figurines</a></li>
+					<li><a href="page_cosplay.html">Cosplay</a></li>
+					<li><a href="page_manga.html">Manga</a></li>
+					<li><a href="page_jeux_videos.html">Jeux Vidéos</a></li>
+					<li><a href="page_musique.html">Musique</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	
+	<div id="menu_panier">		
+		<a href="page_panier.html"> <img id="logo_panier" src="images/panier.png" alt="logo_panier"/> </a><br/>
+		<a href="page_panier.html">Voir son panier</a><br/>
+		<a href="page_commande.html">Commander</a><br/>
+	</div>	
+
+		<h3> News du jour: </h3>
+		<div id="news">
+			<ul>
+				<li>Nouveau manga:<a href="page_description_one_piece.html">One piece tome 71</a><br/></li>
+				<li>Nouvelle figurine:<a href="page_description_steins_gate.html?">Makise Kurisu Figurine</a><br/></li>
+				<li>Nouveau jeu:<a href="page_description_project_diva.html">Hatsune Miku Project Diva F</a><br/></li>
+				<li>Nouvel album:<a href="page_description_akb48.html">AKB48</a><br/></li>
+			</ul>
+		</div>
+		<p> Derniers ajouts: </p>
+		<div id="derniers_ajouts">
+			<ul>
+				<li><a href="page_description_one_piece.html">One piece tome 71</a><br/></li>
+				<li><a href="page_description_steins_gate.html">Makise Kurisu Figurine</a><br/></li>
+				<li><a href="page_description_project_diva.html">Hatsune Miku Project Diva F</a><br/></li>
+				<li><a href="page_description_akb48.html">AKB48</a><br/></li>
+				<li><a href="page_description_freezing.html">Freezing Tome 22</a><br/></li>
+				<li><a href="page_description_fate.html">Tenue Arthuria Pendragon (Saber)</a><br/></li>
+			</ul>
+		</div>
+
+		<div id="deffi_image">
+			<a href="page_description_steins_gate.html"><img src="images/makise_kurisu.jpg" alt="makise_kurisu"/></a>
+			<a href="page_description_one_piece.html"><img  src="images/op_t71.jpg" alt="one_piece_t71"/></a>
+			<a href="page_description_freezing.html"><img  src="images/freezing_t22.jpg" alt="freezing_tome_22"/></a>
+			<a href="page_description_akb48.html"><img  src="images/akb0048.jpg" alt="album_akb48"/></a>
+			<a href="page_description_project_diva.html"><img  src="images/project_diva_F.jpg" alt="Hatsune Miku Project Diva F"/></a>
+			<a href="page_description_fate.html"><img  src="images/fate_cosplay_2.jpg" alt="tenue_saber"/></a>
+		</div>
+
+	<div id="pubs">
+		<div id="logo_pubs">
+			<ul>
+			<li><a href="http://www.otaku-attitude.net"><img src="images/logo_otaku_attitude.png" alt="logo_ottaku_attitude"/></a></li>
+			<li><a href="http://www.otaku-attitude.net"><img src="images/logo_otaku_no_fansub.png" alt="logo_otaku_no_fansub" /></a></li>
+			<li><a href="http://www.anime-saijou.com"><img src="images/logo_anime-saijou.png" alt="logo_anime-saijou"/></a></li>
+			<li><a href="http://www.animeserv.net"><img src="images/logo_animeserv.png" alt="logo_animeserv"/></a></li>
+			</ul>
+		</div>
+	</div>
+
+	<footer id="footer">
+		<a href="page_aide.html">Aide</a>
+		<a href="page_info.html">Qui sommes-nous?</a>
+		<h2> Copyright © "Le Magasin des Otakus" by Aléxis RETOUR 2014, tous droits réservés</h2>
+		<a  href="http://validator.w3.org/#validate-by-uri"><img id="w3c" src="images/w3c.png" alt="w3c"></a>
+	</footer>
+
+</body>
+</html>

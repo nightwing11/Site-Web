@@ -1,0 +1,149 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#w3c
+{
+	width: 50px;
+	height: 50px;
+}
+
+#titre{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	display: block;
+	text-align: center;
+	margin-top: 0;
+	background: black;
+	width: 100%;
+	padding-bottom: 5%;
+}
+
+#form_connect{
+	margin-left: 71%;
+	margin-top: -8%;
+	color: white;
+}
+
+#sous_la_connect{
+	margin-right: 10%;
+	margin-left: 71%;
+	margin-top: 0%;
+	color: white;
+}	
+
+
+img {
+	width: 100px;
+	height: 150px;
+}
+
+
+#pubs
+{
+	position: absolute;
+	top: 20%;
+	margin-left: 85%;
+}
+
+
+#logo_pubs li
+{
+	list-style-type: none;
+}
+#logo_pubs img{
+	width: 150px;
+	height: 50px;
+}
+
+a{
+	text-decoration: none;
+}
+
+#menu_central {
+	margin-top: 5%;
+	margin-left: 35%;
+	margin-right: 25%;
+}
+.menu_horizontal li{ 
+	display : inline;
+	padding : 0 10px;
+}
+.menu_horizontal {
+	list-style-type : none;
+	width: 100%;
+}
+
+#menu_panier
+{
+	margin-top: 2%;
+	left: 0%;	
+}
+
+#description_du_site p
+{
+	font-size: 18px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#logo_panier{
+	width: 50px;
+	height: 50px;
+}
+
+#footer 
+{ 
+	position: fixed;
+	bottom: 0%;
+	left: 36%;	
+	text-align: center;
+}
+
+h2{
+	font-size: 11px;
+}
+
+#aide
+{
+	margin-top: -5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li:hover ul{
+	display:block;
+}
+
+ul ul{
+	display: none;
+} 
+
+#menu_vente
+{
+	color: black;
+	margin-left: 33%;
+	margin-top: 0%; 
+}
+
+h1
+{
+	margin-top: -5%;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	color: black;
+}
+#logo{
+	width: 180px;
+	height: 75px;
+	margin: 0;
+	position: absolute;
+	left: 0;
+}
